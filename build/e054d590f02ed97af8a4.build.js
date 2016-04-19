@@ -45,11 +45,7 @@
 /***/ function(module, exports) {
 
 	"use strict";
-	
-	console.log(11);
-	console.log(22);
-	console.log(44);
 
 /***/ }
 /******/ ]);
-//# sourceMappingURL=5789dbba66d373e3a151.build.js.map
+//# sourceMappingURL=e054d590f02ed97af8a4.build.js.map
