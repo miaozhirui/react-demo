@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "dev": "webpack-dev-server --progress --colors",
-    "build":"rm -rf build && webpack",
+    "build": "rm -rf build && webpack",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -25,7 +25,11 @@
     "es2015": "0.0.1",
     "extract-text-webpack-plugin": "^1.0.1",
     "html-webpack-plugin": "^2.16.0",
+    "less": "^2.6.1",
     "less-loader": "^2.2.3",
+    "react": "^15.0.1",
+    "react-dom": "^15.0.1",
+    "react-router": "^2.3.0",
     "style-loader": "^0.13.1",
     "url-loader": "^0.5.7",
     "webpack": "^1.13.0",
