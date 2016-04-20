@@ -10,7 +10,12 @@ export default class FirstIndex extends React.Component{
 			<div className="first-page">
 				<h4>搭建react+es6+webpack工作流</h4>
 			</div>
+			
 			)
+	}
+
+	componentWillUnmount() {
+		console.log('组件从dom中移除之后的回调')
 	}
 	
 }
