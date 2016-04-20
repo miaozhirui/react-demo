@@ -11,13 +11,12 @@ export default class App extends React.Component{
 			<div>
 				{this.props.children}
 				<nav className="root-nav">
-					<Link to="firstPage">第一页</Link>
-					<Link to="secondPage">第二页</Link>
-					<Link to="thirdPage">第三页</Link>
-					<Link to="fourPage">第四页</Link>
+					<Link to={{pathname: "firstPage", query:{id:1}}} activeClassName="active">第一页</Link>
+					<Link to="secondPage" activeClassName="active">第二页</Link>
+					<Link to="thirdPage" activeClassName="active">第三页</Link>
+					<Link to="fourPage" activeClassName="active">第四页</Link>
 				</nav>
 			</div>
 			)
 	}
 }
-
